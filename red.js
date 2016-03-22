@@ -52,7 +52,7 @@ nopt.invalidHandler = function(k,v,t) {
 var parsedArgs = nopt(knownOpts,shortHands,process.argv,2)
 
 if (parsedArgs.help) {
-    console.log("Node-RED v"+RED.version());
+    console.log("ioGlue v"+RED.version());
     console.log("Usage: node-red [-v] [-?] [--settings settings.js] [--userDir DIR]");
     console.log("                [--port PORT] [flows.json]");
     console.log("");
@@ -171,7 +171,7 @@ try {
     RED.init(server,settings);
 } catch(err) {
     if (err.code == "not_built") {
-        console.log("Node-RED has not been built. See README.md for details");
+        console.log("ioGlue has not been built. See README.md for details");
     } else {
         console.log("Failed to start server:");
         if (err.stack) {

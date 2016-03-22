@@ -94,7 +94,7 @@ function start() {
             }
             console.log("\n\n"+log._("runtime.welcome")+"\n===================\n");
             if (settings.version) {
-                log.info(log._("runtime.version",{component:"Node-RED",version:"v"+settings.version}));
+                log.info(log._("runtime.version",{component:"ioGlue",version:"v"+settings.version}));
             }
             log.info(log._("runtime.version",{component:"Node.js ",version:process.version}));
             log.info(os.type()+" "+os.release()+" "+os.arch()+" "+os.endianness());

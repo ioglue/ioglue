@@ -39,11 +39,11 @@ describe("theme handler", function() {
 
         var context = theme.context();
         context.should.have.a.property("page");
-        context.page.should.have.a.property("title","Node-RED");
+        context.page.should.have.a.property("title","ioGlue");
         context.page.should.have.a.property("favicon","favicon.ico");
         context.should.have.a.property("header");
-        context.header.should.have.a.property("title","Node-RED");
-        context.header.should.have.a.property("image","red/images/node-red.png");
+        context.header.should.have.a.property("title","ioGlue");
+        context.header.should.have.a.property("image","red/images/ioglue.png");
         context.should.have.a.property("version","123.456");
 
         should.not.exist(theme.settings());
@@ -87,7 +87,7 @@ describe("theme handler", function() {
         }});
 
         theme.app();
-        
+
         var context = theme.context();
         context.should.have.a.property("page");
         context.page.should.have.a.property("title","Test Page Title");

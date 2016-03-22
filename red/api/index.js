@@ -54,7 +54,7 @@ var errorHandler = function(err,req,res,next) {
 
 var ensureRuntimeStarted = function(req,res,next) {
     if (!runtime.isStarted()) {
-        log.error("Node-RED runtime not started");
+        log.error("ioGlue runtime not started");
         res.status(503).send("Not started");
     } else {
         next();
