@@ -10,8 +10,14 @@ A visual tool for orchestrating DevOps, based on node-red
 ![ioGlue: A visual tool for orchestrating DevOps](http://nodered.org/images/node-red-screenshot.png)
 
 ## Why
+* DevOps is missing a serious, un-opinionated orchestration tool. Enough with the spit and glue integrations!
 * Enable visual DevOps orchestration, or if you like - Node-Red for DevOps.
 * In an Enterprise-grade, Cloud-Native way
+
+# Who
+You.
+Please join me and help make the world a better place, underscore a better place.
+
 
 ## What
 DevOps orchestration today involves multiple services, starting small but quickly growing large and complex, using spit-and-glue integrations, without any central system or tool for orchestrating everything.
